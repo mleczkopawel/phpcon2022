@@ -16,7 +16,7 @@ jobs:
         uses: php-actions/[email protected]
         with:
           php_version: '8.1'
-          args: '-d main'
+          args: '-d master'
 
       - uses: actions/[email protected]
         with:
